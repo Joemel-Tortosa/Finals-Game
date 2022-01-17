@@ -30,7 +30,7 @@ for (let i = 0; i < youFightValue ; i++) {
         document.getElementById('enemyStatus').innerHTML = `<span style="font-family: Garamond ; 
         font-size: 30px ; color: red"> Enemy Critical Hp </span>`
     }
-    else if (enemyUpdatedHealth < 0  ) {
+    else if (enemyUpdatedHealth <= 0  ) {
         document.getElementById('enemyStatus').innerHTML = `<span style="font-family: Garamond ; 
         font-size: 30px ; color: red"> Enemy Lose </span>`
         document.getElementById('enemyHealth').innerHTML = `<b>0</b>`
@@ -68,7 +68,7 @@ for (let i = 0; i < enemyFightValue ; i++) {
         document.getElementById('yourStatus').innerHTML = `<span style="font-family: Garamond ; 
         font-size: 30px ; color: #2f4047"> Critical Life! </span>`
         }    
-    else if (yourUpdatedHealth < 0){
+    else if (yourUpdatedHealth <= 0){
         document.getElementById('yourStatus').innerHTML = `<span style="font-family: Garamond ; 
         font-size: 30px ; color: #2f4047"> You Lose </span>`
         document.getElementById('yourHealth').innerHTML = `<b>0</b>`
@@ -108,7 +108,7 @@ for (let i = 0; i < youMorphValue ; i++) {
         document.getElementById('enemyStatus').innerHTML = `<span style="font-family: Garamond ; 
         font-size: 30px ; color: red"> Enemy Critical Hp </span>`
     }
-    else if (enemyUpdatedHealth < 0  ) {
+    else if (enemyUpdatedHealth <= 0  ) {
         document.getElementById('enemyStatus').innerHTML = `<span style="font-family: Garamond ; 
         font-size: 30px ; color: red"> Enemy Lose </span>`
         document.getElementById('enemyHealth').innerHTML = `<b>0</b>`
@@ -146,7 +146,7 @@ for (let i = 0; i < enemyMorphValue ; i++) {
         document.getElementById('yourStatus').innerHTML = `<span style="font-family: Garamond ; 
         font-size: 30px ; color: #2f4047"> Critical Life! </span>`
           }    
-    else if (yourUpdatedHealth < 0){
+    else if (yourUpdatedHealth <= 0){
         document.getElementById('yourStatus').innerHTML = `<span style="font-family: Garamond ; 
         font-size: 30px ; color: #2f4047"> You Lose </span>`
         document.getElementById('yourHealth').innerHTML = `<b>0</b>`
