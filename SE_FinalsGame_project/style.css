@@ -1,0 +1,79 @@
+#youFight {
+    background-color: #4caf86;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 500px;
+    cursor: pointer;
+}
+#youMorph {
+    background-color: #4c90af;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 100px;
+    cursor: pointer;
+}
+#firstNumberGif {
+    margin-left: 450px;
+}
+#secondNumberGif {
+    margin-left: -200px;
+}
+
+progress {
+    accent-color: green;
+    border-radius: 20;
+    width: 400px;
+    height: 40px;
+}
+
+#yourStatus {
+    margin-left: 200px;
+}
+#enemyStatus {
+    margin-left: 100px;
+}
+#yourdamage {
+    margin-left: 150px;
+}
+#enemydamage {
+    margin-left: 150px;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  .row {
+    display: flex;
+  }
+  .column {
+    flex: 50%;
+    padding: 10px;
+    height: 300px;
+  }
+
+.health {
+    display: flex;
+    justify-content: left;
+}
+
+.health1, .health2 {
+    width: 25%;
+}
+
+.box {
+    margin: 20px 165px;
+    display: block;
+    text-align: left;
+    justify-content: left;
+
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Spiderman </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1 style="font-family: fantasy; color: #0077b6;" align="center"> Spiderman Game 🕷️</h1>
+
+<div class="health">
+    <div class="health1 box"><progress id="yourHp" value="200" max="200"></progress>
+        <div style="font-family: monospace; font-size: large;">HP: <span id="yourHealth"><b>200</b></span></div>
+    </div>
+    <div class="health2 box"><progress id="enemyHp" value="200" max="200"></progress>
+        <div style="font-family: monospace; font-size: large;">HP: <span id="enemyHealth"><b>200</b></span></div>
+    </div>
+</div>
+
+<div>
+      <img src="gifs/0left.gif" id="firstNumberGif">
+      <img src="gifs/0right.gif" id="secondNumberGif">
+</div>
+
+<div>
+    <button id="youFight" onclick="youFight()"> Fight </button>
+    <button id="youMorph" onclick="youMorph()"> Morph </button>
+</div> 
+
+<div class="row">
+    <div class="column">
+        <p id="yourStatus"></p>
+        <p id="yourdamage"></p>
+    </div>
+
+    <div class="column">
+        <p id="enemyStatus"></p>
+        <p id="enemydamage"></p>
+    </div>
+</div>
+
+<script src="function.js"></script>
+
+</body>
+</html>
